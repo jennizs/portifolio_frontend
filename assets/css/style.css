@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+    background-color: #ed7e00;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 20px;
+
+}
+
+#validador {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    color: black;
+    padding: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #261f33;
+    padding: 40px;
+    color: #ed7e00;
+}
+
+a:hover {
+    color: #ffffff;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+#home_texto {
+    color: black;
+    margin-right: 40px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#contato {
+    color: black;
+    padding: 40px;
+    margin-right: 40px;
+
+}
+
+#icones_redes_sociais img {
+    width: 40px;
+    height: 40px;
+
+}
